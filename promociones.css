@@ -1,5 +1,5 @@
-header{
-    background-color: #f7c5cc;  
+body{
+    background-color: #f7c5cc;
 }
 
 .parent {
@@ -7,34 +7,39 @@ header{
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 8px;
-    background-color: #f7c5cc;
+    padding:20px;
 }
-
 .cardPromo1{
     grid-row-start: 1;
-
+    background-color: #fff8f0;
 }
 
 .cardPromo2{
     grid-row-start: 2;
+    background-color: #fff8f0;
 }
 
 .cardPromo3{
     grid-row-start: 1;
+    background-color: #fff8f0;
 }
 
 .cardPromo4{
     grid-row-start: 2;
+    background-color: #fff8f0;
 }
 
 .cardPromo5{
     grid-row-start: 1;
+    background-color: #fff8f0;
 }
 
 .cardPromo6{
     grid-row-start: 2;
+    background-color: #fff8f0;
 }
 
 .cardPromo7{
     grid-row-start: 1;
+    background-color: #fff8f0;
 }
