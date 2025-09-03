@@ -2,10 +2,16 @@ body{
     background-color: #f7c5cc;
 }
 
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
 .parent {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2,5, 1fr);
+    grid-template-rows: repeat(2,5, 1fr);
     gap: 8px;
     padding:20px;
 }
