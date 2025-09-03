@@ -41,6 +41,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #219150;
+  text-align: center;
 }
 
 
