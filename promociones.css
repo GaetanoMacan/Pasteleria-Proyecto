@@ -1,0 +1,40 @@
+header{
+    background-color: #f7c5cc;  
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    background-color: #f7c5cc;
+}
+
+.cardPromo1{
+    grid-row-start: 1;
+
+}
+
+.cardPromo2{
+    grid-row-start: 2;
+}
+
+.cardPromo3{
+    grid-row-start: 1;
+}
+
+.cardPromo4{
+    grid-row-start: 2;
+}
+
+.cardPromo5{
+    grid-row-start: 1;
+}
+
+.cardPromo6{
+    grid-row-start: 2;
+}
+
+.cardPromo7{
+    grid-row-start: 1;
+}
