@@ -10,8 +10,8 @@ h2{
 }
 .parent {
     display: grid;
-    grid-template-columns: repeat(2,5, 1fr);
-    grid-template-rows: repeat(2,5, 1fr);
+    grid-template-columns: repeat(2,5, 2fr);
+    grid-template-rows: repeat(2,5, 2fr);
     gap: 8px;
     padding:20px;
 }
