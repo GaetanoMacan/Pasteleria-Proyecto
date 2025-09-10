@@ -1,4 +1,7 @@
 .Producto {
   background-color: black;
-  
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 65px;
 }
