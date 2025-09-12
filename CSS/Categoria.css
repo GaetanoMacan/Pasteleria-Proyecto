@@ -15,3 +15,10 @@ body{
       text-align: center;
       margin: 100px auto; 
 }
+.Producto img{
+  max-width: 200px;
+  height: auto;
+  border-radius: 20px;
+  border: 3px solid rgb(255, 0, 140);
+
+}
