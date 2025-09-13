@@ -36,6 +36,9 @@ nav ul{
 nav ul li {
   display: inline;
 }
-nav ul li a{
-  
+nav a{
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: #5e3b28;
+  font-weight: bold;
 }
