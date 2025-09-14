@@ -42,3 +42,13 @@ nav a{
   color: #5e3b28;
   font-weight: bold;
 }
+footer{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 0px;
+  background-color: #fff8f0;
+  padding: 15px;
+  text-align: center;
+
+}
