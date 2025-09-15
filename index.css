@@ -18,18 +18,19 @@ header.nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav ul.menu {
+nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   padding: 0;
+  margin: 0;
 }
 
-nav ul.menu li {
+nav ul li {
   margin: 0 20px;
 }
 
-nav ul.menu li a {
+nav ul li a {
   text-decoration: none;
   color: #5e3b28;
   font-weight: bold;
@@ -37,20 +38,7 @@ nav ul.menu li a {
   transition: color 0.3s;
 }
 
-nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      padding: 0;
-      margin: 0;
-}
-
-nav ul li {
-      margin: 0 20px;
-}
-
-
-nav ul.menu li a:hover {
+nav ul li a:hover {
   color: #a0522d;
 }
 
@@ -90,11 +78,12 @@ nav ul.menu li a:hover {
   padding: 20px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  transition: transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
 }
 
 .card:hover {
   transform: translateY(-5px);
+  opacity: 0.95;
 }
 
 .card h3 {
@@ -115,11 +104,12 @@ nav ul.menu li a:hover {
   color: #fff;
   cursor: pointer;
   font-weight: bold;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .btn:hover {
   background-color: #e88aa0;
+  transform: scale(1.05);
 }
 
 /* FOOTER */
@@ -131,4 +121,37 @@ footer {
   color: #5e3b28;
   border-top: 2px solid #f0a6b6;
   margin-top: 50px;
+}
+
+/* EFECTOS VISUALES PERSONALIZADOS */
+
+/* 1. .animar: se agranda y gira levemente al hacer hover */
+.animar {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.animar:hover {
+  transform: scale(1.1) rotate(1deg);
+  opacity: 0.95;
+}
+
+/* 2. .mostrar: se desliza hacia arriba y aparece con opacidad */
+.mostrar {
+  opacity: 0.6;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.mostrar:hover {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+/* 3. .resaltar: cambia de color y sombra al pasar el mouse */
+.resaltar {
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.resaltar:hover {
+  background-color: #fcdde3;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
