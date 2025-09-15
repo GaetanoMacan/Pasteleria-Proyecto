@@ -9,6 +9,7 @@ body{
   grid-template-rows: repeat(5, 1fr);
   gap: 65px;
   border-radius: 20px;
+  display: inline-block;
   width: 550px;
       border: 3px solid rgb(255, 0, 140);
       padding: 20px;
@@ -56,4 +57,5 @@ button{
   cursor: pointer;
   border-radius: 20px;
   border: 3px solid rgb(255, 0, 140);
+  width: 150px;
 }
