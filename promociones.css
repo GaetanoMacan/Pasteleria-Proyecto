@@ -1,51 +1,181 @@
-body{
+body {
     background-color: #f7c5cc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
+h1 {
     text-align: center;
+    margin: 20px 0;
+    color: #333;
 }
-h2{
+
+h2 {
     text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
+
 .parent {
     display: grid;
-    grid-template-columns: repeat(2,5, 2fr);
-    grid-template-rows: repeat(2,5, 2fr);
-    gap: 8px;
-    padding:20px;
-}
-.cardPromo1{
-    grid-row-start: 1;
-    background-color: #fff8f0;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+    padding: 20px;
+    justify-items: center; 
 }
 
-.cardPromo2{
-    grid-row-start: 2;
+.cardPromo1 {
     background-color: #fff8f0;
+    border: 2px solid #e0aeb1;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin: 5px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardPromo1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.cardPromo3{
-    grid-row-start: 1;
+.cardPromo2 {
     background-color: #fff8f0;
+    border: 2px solid #e0aeb1;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin: 5px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardPromo2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.cardPromo4{
-    grid-row-start: 2;
+.cardPromo3 {
     background-color: #fff8f0;
+    border: 2px solid #e0aeb1;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin: 5px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardPromo3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.cardPromo5{
-    grid-row-start: 1;
+.cardPromo4 {
     background-color: #fff8f0;
+    border: 2px solid #e0aeb1;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin: 5px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardPromo4:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.cardPromo6{
-    grid-row-start: 2;
+.cardPromo5 {
     background-color: #fff8f0;
+    border: 2px solid #e0aeb1;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin: 5px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardPromo5:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.cardPromo7{
-    grid-row-start: 1;
+.cardPromo6 {
     background-color: #fff8f0;
+    border: 2px solid #e0aeb1;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin: 5px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardPromo6:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.cardPromo7 {
+    background-color: #fff8f0;
+    border: 2px solid #e0aeb1;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin: 5px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardPromo7:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.precio1 {
+    color: #c04c72;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.precio2 {
+    color: #c04c72;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.precio3 {
+    color: #c04c72;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.precio4 {
+    color: #c04c72;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.precio5 {
+    color: #c04c72;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.precio6 {
+    color: #c04c72;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.precio7 {
+    color: #c04c72;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+#pie {
+    background-color: #fff8f0;
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #e0aeb1;
 }
