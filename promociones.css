@@ -1,11 +1,11 @@
 #nav {
-    background-color: #fff0f5;  
+    background-color: #fff8f0;  
     text-align: center;          
     padding: 10px;
 }
 
 #nav a {
-    color: #c04c72;
+    color: #5e3b28;          
     font-weight: bold;
     text-decoration: none;
     margin: 0 10px;             
@@ -13,12 +13,12 @@
 
 #nav a:hover {
     color: #fff;               
-    background-color: #c04c72;
+    background-color: #a0522d;  
     border-radius: 5px;
 }
 
 body {
-    background-color: #f7c5cc;
+    background-color: #f7c5cc;  
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -27,13 +27,14 @@ body {
 h1 {
     text-align: center;
     margin: 20px 0;
-    color: #333;
+    color: #5e3b28;          
 }
 
 h2 {
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 10px;
+    color: #5e3b28;             
 }
 
 .grid-container {
@@ -45,8 +46,8 @@ h2 {
 }
 
 .card {
-    background-color: #fff8f0;
-    border: 2px solid #e0aeb1;
+    background-color: #fff8f0; 
+    border: 2px solid #a0522d; 
     border-radius: 10px;
     padding: 15px;
     text-align: center;
@@ -57,20 +58,20 @@ h2 {
 
 .card:hover {
     transform: scale(1.05);       
-    border: 4px solid #c04c72;    
+    border: 4px solid #a0522d;    
     box-shadow: 0 6px 15px rgba(0,0,0,0.25);
     background-color: #fff0f5;
 }
 
 .precio {
-    color: #c04c72;
+    color: #a0522d;            
     font-size: 1.3rem;
     font-weight: bold;
 }
 
 .btn {
-    background-color: #c04c72;   
-    color: #fff8f0;            
+    background-color: #a0522d;  
+    color: #fff8f0;              
     border: none;
     border-radius: 5px;
     padding: 8px 15px;
@@ -81,14 +82,13 @@ h2 {
 }
 
 .btn:hover {
-    background-color: #a03b5a;  
+    background-color: #5e3b28;  
     transform: scale(1.05);      
-
 }
 
 #pie {
-    background-color: #fff8f0;
+    background-color: #fff8f0;   
     text-align: center;
     padding: 15px;
-    border-top: 2px solid #e0aeb1;
+    border-top: 2px solid #a0522d;  
 }
