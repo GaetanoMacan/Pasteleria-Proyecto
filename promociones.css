@@ -2,13 +2,14 @@
     background-color: #fff8f0;  
     text-align: center;          
     padding: 10px;
+    opacity:0.7;   
 }
 
 #nav a {
     color: #5e3b28;          
     font-weight: bold;
     text-decoration: none;
-    margin: 0 10px;             
+    margin: 0 10px;          
 }
 
 #nav a:hover {
@@ -27,15 +28,19 @@ body {
 h1 {
     text-align: center;
     margin: 20px 0;
-    color: #5e3b28;          
+    color: #5e3b28;   
+    opacity:0.7;       
 }
 
 h2 {
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 10px;
-    color: #5e3b28;             
+    color: #5e3b28;   
+    opacity:0.7;          
 }
+
+
 
 .grid-container {
     display: grid;
@@ -74,16 +79,16 @@ h2 {
     color: #fff8f0;              
     border: none;
     border-radius: 5px;
-    padding: 8px 15px;
+    padding: 8px 10px;
     cursor: pointer;
     font-weight: bold;
-    margin-top: 10px;           
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 5px;           
+    transition: background-color 0.4s ease, transform 0.3s ease;  
 }
 
 .btn:hover {
     background-color: #5e3b28;  
-    transform: scale(1.05);      
+    transform: scale(1.05);    
 }
 
 #pie {
