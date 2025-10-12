@@ -38,6 +38,11 @@
 }
 
 
+.enviar:hover{
+    box-shadow: 0 0 20px #007bff, 0 0 40px #007bff;
+    transform: scale(1.05); 
+}
+
 
 
 
