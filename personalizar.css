@@ -26,6 +26,19 @@
  }
 
 
+.enviar{
+    background-color: indianred;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+
+
 
 
 
