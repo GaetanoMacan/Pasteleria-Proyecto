@@ -22,8 +22,8 @@ h2 {
 .img-glow{
     display:block ;
     margin:20px auto;
-    10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius:10px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
     animation: brillo 2s infinite;
 }
 
