@@ -30,7 +30,7 @@ h2 {
 .img-glow:hover {
     filter:brightness(1.3);
     transform:scale(1.05);
-    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
+    box-shadow:0 0 25px rgba(255, 255, 255, 0.8);
 }
 
 ul {
