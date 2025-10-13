@@ -27,7 +27,7 @@ h2 {
     animation:brillo 2s infinite;
 }
 
-.img-glow:hover{
+.img-glow:hover {
     filter: brightness(1.3);
     transform: scale(1.05);
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.8);
