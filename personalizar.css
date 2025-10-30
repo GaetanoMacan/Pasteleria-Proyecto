@@ -1,0 +1,44 @@
+.h1{
+    text-align: center;
+    grid-column: span 2 / span 2;
+}
+
+.h2{
+    text-align: center;
+    grid-column: span 2 / span 2;
+    grid-row-start: 2; 
+}
+
+.chocolate{
+    grid-row-start: 3;
+}
+
+.vainilla{
+    grid-row-start: 3;
+}
+
+ .red_velvet{
+    grid-row-start: 4;
+ }
+
+ .marmolado{
+    grid-row-start: 4;
+ }
+
+
+.enviar{
+    background-color: indianred;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+
+.enviar:hover{
+    box-shadow: 0 0 20px #007bff, 0 0 40px #007bff;
+    transform: scale(1.05); 
+}
