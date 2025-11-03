@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
   const boton = document.getElementById("boton");
   const modal = document.getElementById("modal");
   const cerrar = document.getElementById("cerrar");
@@ -16,3 +16,4 @@ document.addEventListener("DOMContentLoaded", () => {
     modal.classList.add("oculto");
   });
 });
+
