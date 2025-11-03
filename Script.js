@@ -16,4 +16,5 @@
     modal.classList.add("oculto");
   });
 });
+*/
 
