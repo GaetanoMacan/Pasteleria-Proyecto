@@ -54,3 +54,16 @@ li {
     color: #a0522d;
     font-weight: bold;
 }
+nav a{
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: #5e3b28;
+  font-weight: bold;
+}
+button{
+  background-color: #f7c5cc;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 3px solid #fff8f0;
+  width: 150px;
+}
