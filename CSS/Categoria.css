@@ -1,0 +1,128 @@
+body{
+  background-color: #f7c5cc;
+  font-family: Arial, sans-serif;
+}
+.Producto {
+  background-color: #fff8f0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 65px;
+  border-radius: 20px;
+  display: inline-block;
+  height: 300px;
+  width: 550px;
+      border: 3px solid rgb(250, 184, 220);
+      padding: 20px;
+      text-align: center;
+      margin: 100px auto; 
+}
+.Producto img{
+  max-width: 289px;
+  max-height: 174px;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 3px solid rgb(243, 179, 214);
+}
+header {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 0px;
+  background-color: #fff8f0;
+  padding: 15px;
+  text-align: center;
+}
+header img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 550px;
+  border-radius: 20px;
+}
+.Imagen-carta{
+  height: 300px;
+  width: 550px;
+  perspective: 1000px;
+  margin: 50px auto;
+}
+.Imagen-carta-interior{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.Imagen-carta-frontal, .Imagen-carta-trasera{
+ position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden; 
+  border-radius: 10px;
+  padding: 20px;
+}
+.Imagen-carta-frontal img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.Imagen-carta-trasera{
+  background-color: #f7c5cc;
+  transform: rotateY(180deg); 
+  display: flex;
+  max-width: 470px;
+  max-height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Imagen-carta:hover .Imagen-carta-interior{
+  transform: rotateY(180deg);
+}
+header h1 {
+  margin-top: 15px;
+}
+nav ul li {
+  display: inline;
+}
+nav a{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: #5e3b28;
+  font-weight: bold;
+  transition: font-size 1s ease; 
+}
+nav a:hover{
+  cursor:pointer;
+  font-size: 19px;
+  color:rgba(236, 5, 236, 0.877);
+}
+footer{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 0px;
+  background-color: #fff8f0;
+  padding: 15px;
+  text-align: center;
+}
+button{
+  background-color: #f7c5cc;
+  cursor: pointer;
+  transition: all 1s ease;
+  border-radius: 20px;
+  border: 3px solid #fff8f0;
+  width: 150px;
+}
+button:hover{
+  box-shadow: rgba(236, 5, 236, 0.877) 0 -25px 18px -14px inset,rgba(235, 10, 223, 0.63) 0 1px 2px,rgba(228, 14, 217, 0.623) 0 2px 4px,rgba(201, 10, 175, 0.747) 0 4px 8px,rgba(221, 13, 211, 0.712) 0 8px 16px,rgba(233, 19, 197, 0.692) 0 16px 32px;
+  transform: scale(1.30);
+  background-color: rgb(241, 136, 236);
+}
+
